@@ -11,6 +11,7 @@ body {
   margin-right: auto;
   width: 320px;
   height: 499px;
+  border-radius: 20px;
 }
 
 .copy-title {
@@ -24,4 +25,5 @@ body {
 .qr-code {
   width: 288px;
   height: 288px;
+  border-radius: 10px;
 }
