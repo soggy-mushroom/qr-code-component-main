@@ -16,10 +16,18 @@ body {
 
 .copy-title {
   text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #1F314F;
+  line-height: 120%;
 }
 
 .copy-body {
   text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: #68778D;
 }
 
 .qr-code {
