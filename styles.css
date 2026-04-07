@@ -3,6 +3,25 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #FFFFFF;
-  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 499px;
+}
+
+.copy-title {
+  text-align: center;
+}
+
+.copy-body {
+  text-align: center;
+}
+
+.qr-code {
+  width: 288px;
+  height: 288px;
 }
