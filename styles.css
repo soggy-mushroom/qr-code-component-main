@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #D5E1EF;
 }
@@ -7,11 +12,18 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #FFFFFF;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 320px;
   height: 499px;
   border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copy-container {
+  padding-top: 24px;
 }
 
 .copy-title {
@@ -25,6 +37,7 @@ body {
 }
 
 .copy-body {
+  padding-top: 16px;
   text-align: center;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
